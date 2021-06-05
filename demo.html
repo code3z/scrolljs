@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="scroll.js"></script>
+        <title>
+            scroll.js - Parallax Superpowers in under 1KB of Code </title>
+<style>
+body{
+  background: linear-gradient(#fed26a, #fec238);
+  height:200vh;
+  margin:0px;
+  font-family: sans-serif;
+}
+svg{
+  margin:0px;
+  z-index:0;
+  position: fixed;
+  top: 0;
+}
+img{
+  z-index:10;
+}
+h1 {
+  font-family: monospace;
+  font-weight: 200;
+}
+#description {
+    margin-top: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: larger;
+}
+
+@keyframes fadeup{
+  from{opacity:1; transform: translateY(-100px); }
+  to{opacity:0}
+}
+
+</style></head>
+<body>
+    <svg height="800px" style="animation: 1s linear paused fadeup" data-animation="fadeup" data-range="0to100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#47beff" fill-opacity="1" d="M0,224L21.8,234.7C43.6,245,87,267,131,229.3C174.5,192,218,96,262,90.7C305.5,85,349,171,393,176C436.4,181,480,107,524,80C567.3,53,611,75,655,101.3C698.2,128,742,160,785,154.7C829.1,149,873,107,916,80C960,53,1004,43,1047,80C1090.9,117,1135,203,1178,213.3C1221.8,224,1265,160,1309,122.7C1352.7,85,1396,75,1418,69.3L1440,64L1440,0L1418.2,0C1396.4,0,1353,0,1309,0C1265.5,0,1222,0,1178,0C1134.5,0,1091,0,1047,0C1003.6,0,960,0,916,0C872.7,0,829,0,785,0C741.8,0,698,0,655,0C610.9,0,567,0,524,0C480,0,436,0,393,0C349.1,0,305,0,262,0C218.2,0,175,0,131,0C87.3,0,44,0,22,0L0,0Z"></path>
+    </svg>
+    <div id="description">
+        <h1>
+            Parallax Superpowers in
+            under 1KB of Code </h1>
+
+                <p> Program in CSS - no JS knowledge required! </p>
+                <p>But if you know JS, that's great too ;) </p>
+                <a href="https://github.com/code3z/scrolljs">Check out scroll.js</a>
+    </div>
+</body>
+</html>

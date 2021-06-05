@@ -1,0 +1,27 @@
+{
+  "name": "scrolljs",
+  "version": "1.0.0",
+  "description": "Parallax for the masses!",
+  "main": "scroll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code3z/scrolljs.git"
+  },
+  "keywords": [
+    "parallax",
+    "css",
+    "js",
+    "scroll",
+    "effects",
+    "animation"
+  ],
+  "author": "code3z",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/code3z/scrolljs/issues"
+  },
+  "homepage": "https://github.com/code3z/scrolljs#readme"
+}
