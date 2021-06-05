@@ -1,7 +1,7 @@
 {
   "name": "scrolljs",
-  "version": "1.0.0",
-  "description": "Parallax for the masses!",
+  "version": "2.0.0",
+  "description": "The coolest animated scrolling library, ever!",
   "main": "scroll.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
